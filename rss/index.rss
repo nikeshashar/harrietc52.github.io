@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 12:27:17 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Test Driven Development</title><description>&lt;blockquote&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 12:57:00 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Test Driven Development</title><description>&lt;blockquote&gt;
   &lt;p&gt;“Bad programmers have all the answers. Good testers have all the question”. &lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -15,6 +15,10 @@
 &lt;p&gt;TDD stands for Test Driven Development. The philosophy behind TDD is to write your tests first before writing just enough code to fulfil these tests. You then refractor your code to make it beautiful!&lt;/p&gt;
 
 &lt;p&gt;The refractor cycle is part of TDD. This loop is repeated in the sense of writing a test, watch it fail, make it work, refractor it and repeat the whole process. In the feature test you write code you wish you had, and from the features failure message you plan your unit tests accordingly. The unit test tests the capabilities of individual objects in a program, isolated from one another. Using this approach means that every few minutes, this cycle moves your code forward a notch, providing code that - although may not be finished - it has been tested, designed, coded and is ready to go. &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;img src="https://jorgekotickaudy.files.wordpress.com/2013/04/tdd-tdd.jpg" alt=""&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
