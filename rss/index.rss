@@ -1,4 +1,32 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 12:24:18 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 2</title><description>&lt;p&gt;&lt;strong&gt;Boris Bikes&lt;/strong&gt;&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 12:27:17 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Test Driven Development</title><description>&lt;blockquote&gt;
+  &lt;p&gt;“Bad programmers have all the answers. Good testers have all the question”. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;TDD stands for Test Driven Development. The philosophy behind TDD is to write your tests first before writing just enough code to fulfil these tests. You then refractor your code to make it beautiful!&lt;/p&gt;
+
+&lt;p&gt;The refractor cycle is&lt;/p&gt;</description><link>http://localhost:2368/2015/09/03/test-driven-development/</link><guid isPermaLink="false">a4aec846-99fc-4d7c-840d-59c2623f8075</guid><dc:creator>Harriet Craven</dc:creator><pubDate>Thu, 03 Sep 2015 12:26:53 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+  &lt;p&gt;“Bad programmers have all the answers. Good testers have all the question”. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;TDD stands for Test Driven Development. The philosophy behind TDD is to write your tests first before writing just enough code to fulfil these tests. You then refractor your code to make it beautiful!&lt;/p&gt;
+
+&lt;p&gt;The refractor cycle is part of TDD. This loop is repeated in the sense of writing a test, watch it fail, make it work, refractor it and repeat the whole process. In the feature test you write code you wish you had, and from the features failure message you plan your unit tests accordingly. The unit test tests the capabilities of individual objects in a program, isolated from one another. Using this approach means that every few minutes, this cycle moves your code forward a notch, providing code that - although may not be finished - it has been tested, designed, coded and is ready to go. &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;The reference to “red” indicates that the example fails because the necessary code does not exist yet, which is necessary to make the test pass. You use the red failure error messages as a guide to tell you what your code needs to include to pass.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;The next step is to see all of your tests passing. This means that you will write just enough code to meet the tests' requirements. You will see a "green" message which indicates that you have succeeded in passing all of the tests.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Refactoring is changing the code without changing its behaviour. Now that the code does what you want, you use refactoring to make the design more attractive and easy to follow, also removing any duplication. After refactoring your tests still need to still have 100% coverage.&lt;/p&gt;</content:encoded></item><item><title>Day 2</title><description>&lt;p&gt;&lt;strong&gt;Boris Bikes&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
