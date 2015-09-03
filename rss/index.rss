@@ -1,4 +1,42 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 12:57:00 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Test Driven Development</title><description>&lt;blockquote&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 22:02:40 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 3</title><description>&lt;p&gt;&lt;strong&gt;Boris Bike #2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My little alarm that flashes ‘10pm go to bed’ on my phone has just gone off, and I’ve literally just walked through the door - but! We were at the pub for the last hour or so so its okay. And that was always going to&lt;/p&gt;</description><link>http://localhost:2368/2015/09/03/day-3/</link><guid isPermaLink="false">3d64bf31-d3b0-4b0d-966f-2af8c55395b1</guid><dc:creator>Harriet Craven</dc:creator><pubDate>Thu, 03 Sep 2015 22:02:31 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Boris Bike #2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My little alarm that flashes ‘10pm go to bed’ on my phone has just gone off, and I’ve literally just walked through the door - but! We were at the pub for the last hour or so so its okay. And that was always going to be VERY optimistic. &lt;/p&gt;
+
+&lt;p&gt;Totally has been totally different, still in a good way! Quickly adapting to same code with a new partner was something to really get your head around. We struggled a little at first on the communication front, but after the research project and some lunch (I thought I had left mine at home and then found it - never been happier) and stepping back away from the code, the afternoon was really productive. Today I feel like I learnt more about pair programming itself then coding as such but I think thats okay!&lt;/p&gt;
+
+&lt;p&gt;I’m going to keep this one short just because I was pretty tired this morning after not finally getting to bed until 12 ish last night. So, first of all I just want to say that my note pad is starting to look particularly awesome with my whole three challenge stickers proudly on the front. Apart from enjoying this far too much, we coded, had a lunch time talk, meditated, I coloured a little, coded some more, yoga, coded and then at 8 the pub.&lt;/p&gt;
+
+&lt;p&gt;The meditation didn't hurt any where near as yesterday, the hands were still twitching and everything, but when the second dong went I I totally jumped so must have zoned out again! Such a great feeling afterwards though, thank you Dana.&lt;/p&gt;
+
+&lt;p&gt;What I took away from our afternoon stand up was mainly Time-boxing, so being strict with yourself on certain projects, basically sorting out of time management skills! Also excapulation (my spelling is so bad that it doesn't even recognise it - sorry everybody) but this means making sure you never expose more than you need too within in a project, using private and potentially protected methods.&lt;/p&gt;
+
+&lt;p&gt;But The Boris Bike challenge is still ongoing and hopefully I’ll be able to take a lot of this into the airport challenge at the weekend, because right now I am pretty nervous about going about a full project without somebody to bounce ideas off, and talk through problems/ potential solutions with. But after today the basic syntax of Rspec is a lot clearer to me which is great. I think by the end of week 1 we should really feel pretty comfortable with TDD - weekly goal! &lt;/p&gt;
+
+&lt;p&gt;There are so many things going on in and around Makers, I feel like I need to start being a bit stricter with myself about what I will and wont do, lunch time talks etc just because even though I’ll be told no day it wasted, I just feel like I didn't do as much coding today as yesterday, and there a bit of guilt lingering over right now.&lt;/p&gt;
+
+&lt;p&gt;Before I switch off I just want to mention my byte coach for this week Samm, he is really, really amazing. SO funny, enthusiastic, encouraging, and I think he knows literally everything about everything. He’s spent the time going through everybody's personal blocks, elaborating on them so much that at one point were all studying the Blooms Taxonomy. But this education and learning philosophy is really useful to know for us as we try to cram ridiculous amounts of knowledge in our brains, but I really feel like I learn so much from him, and the nature of stand ups themselves. At the moment we are getting around the group in average 17 minutes. This should be about 5!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;So Top things from today:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The pub tonight was needed an appreciated! Really fun :) &lt;/li&gt;
+&lt;li&gt;Tips and tricks how to not freak out when you are pairing with who you might is a robot&lt;/li&gt;
+&lt;li&gt;Using github to check out other code as examples, though the rspec/rspec file.&lt;/li&gt;
+&lt;li&gt;But probably the most important is the way I will next approach a project with a new pair partner.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;OH wow ^^ this was supposed to be a short blog..but in 30 minutes! I think that is a record time for me! But that means I will definitely have lots of typo’s, and Nikesh will defiantly let me know about it within the next few minutes - because we have recently discovered he is Big Brother.&lt;/p&gt;
+
+&lt;p&gt;Goodnight all! &lt;br&gt;
+Harry x&lt;/p&gt;</content:encoded></item><item><title>Test Driven Development</title><description>&lt;blockquote&gt;
   &lt;p&gt;“Bad programmers have all the answers. Good testers have all the question”. &lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -30,7 +68,9 @@
 
 &lt;hr&gt;
 
-&lt;p&gt;Refactoring is changing the code without changing its behaviour. Now that the code does what you want, you use refactoring to make the design more attractive and easy to follow, also removing any duplication. After refactoring your tests still need to still have 100% coverage.&lt;/p&gt;</content:encoded></item><item><title>Day 2</title><description>&lt;p&gt;&lt;strong&gt;Boris Bikes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Refactoring is changing the code without changing its behaviour. Now that the code does what you want, you use refactoring to make the design more attractive and easy to follow, also removing any duplication. After refactoring your tests still need to still have 100% coverage.&lt;/p&gt;
+
+&lt;p&gt;Research project by Harriet Craven and Zhivko Siderov &lt;/p&gt;</content:encoded></item><item><title>Day 2</title><description>&lt;p&gt;&lt;strong&gt;Boris Bikes&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
