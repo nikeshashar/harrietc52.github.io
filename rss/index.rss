@@ -1,4 +1,21 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 22:07:18 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 3</title><description>&lt;p&gt;&lt;strong&gt;Boris Bike #2&lt;/strong&gt;&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Fri, 04 Sep 2015 23:50:41 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 4</title><description>&lt;hr&gt;
+
+&lt;p&gt;So today, the final day of Week 1, me and my partner Lucy had a long low, follow by a the biggest high to date when we solved Post Challenge 3 of the Boris Bike challenge. I honestly don’t think I have ever been happier to see the colour&lt;/p&gt;</description><link>http://localhost:2368/2015/09/05/day-4/</link><guid isPermaLink="false">f1df38ec-19c0-400e-9458-fd7b1101cd29</guid><dc:creator>Harriet Craven</dc:creator><pubDate>Fri, 04 Sep 2015 23:50:34 GMT</pubDate><content:encoded>&lt;hr&gt;
+
+&lt;p&gt;So today, the final day of Week 1, me and my partner Lucy had a long low, follow by a the biggest high to date when we solved Post Challenge 3 of the Boris Bike challenge. I honestly don’t think I have ever been happier to see the colour green. I think we both shed a little tear of happiness! It came down to not concentrating enough attention to detail, as the solution was in our rspec error message all along without us realising for a good few hours. We had conflicting errors in our docking&lt;em&gt;station&lt;/em&gt;spec.rb file and the docking_station.rb file, as one fail method said “station” and the corresponding test expected “Station”. This was a massive learn curve. We have been told so much to read our error messages very carefully but this really hit home. &lt;/p&gt;
+
+&lt;p&gt;This was also the first time I really experienced the frustration of not knowing how to solve something, or which direction to take next. This is the feeling we need to get used to, as developers spend about 80% of there time getting out of problems, only minutes later to hit the next. But we worked through it together and came out really happy with our days progress. &lt;/p&gt;
+
+&lt;p&gt;So thats the Boris Bike challenge, and this weekends challenge is to write the software to control to flow of planes at an airport. How scary does that sound! But hopefully it will reflect a lot of the Boris bike work and I’m actually kind of looking forward to giving this my best shot and testing how much I have taken in from these last three days. Easy to say now!&lt;/p&gt;
+
+&lt;p&gt;But we made it to our first Friday at Makers! And from 5pm the place just got giddy and was total madness. There were guns shooting these foam bullets around the place. Nikesh had his advance point shooting down from the coaches balcony, Adrian was hiding behind the whiteboards for safety. It was just crazy. And! Well, when that message went up on Slack saying beer had been delivered to the kitchen, word of mouth spread like wild fire. &lt;/p&gt;
+
+&lt;p&gt;Me and Lucy just wanted to get on and work but there were so many objects flying around the place it was really distracting! Luckily we were just doing some research in prep for the weekends challenge on doubles, so we surrendered and went to a new pub at 9 with the seniors. They are so nice and reassured us that any doubts and nerves we are feeling at the moment is normal. It was really nice to spend some time with them. &lt;/p&gt;
+
+&lt;p&gt;All going well I will post on Sunday saying how the Airport challenge went! If I don’t.. ah lets just hope I do!&lt;/p&gt;
+
+&lt;p&gt;Happy weekend! &lt;br&gt;
+Harry x&lt;/p&gt;</content:encoded></item><item><title>Day 3</title><description>&lt;p&gt;&lt;strong&gt;Boris Bike #2&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
