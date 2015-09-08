@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 08 Sep 2015 10:33:07 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>SOLID - Dependency inversion principle</title><description>&lt;p&gt;&lt;strong&gt;Research Assignment:&lt;/strong&gt;&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 08 Sep 2015 10:38:17 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>SOLID - Dependency Inversion Principle</title><description>&lt;p&gt;&lt;strong&gt;Research Assignment:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Describe the SOLID principle of dependency inversion, by giving an example of dependency injection with a module and a class. How does DI improve the reusability of code?*&lt;/p&gt;
 
@@ -27,7 +27,7 @@ The most common place that talk about dependency inversion comes up is when folk
 
 &lt;hr&gt;
 
-&lt;p&gt;&lt;strong&gt;Benefits of DIP&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Benefits of DI&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;The main reason for using dependency injection is to be able to swap the dependencies of an object at run time - this is mostly useful for testing.&lt;/p&gt;
 
@@ -73,11 +73,11 @@ end
 
 &lt;hr&gt;
 
-&lt;p&gt;&lt;img src="http://i.stack.imgur.com/BrkBd.png" alt="Dependency Injection"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://www.c-sharpcorner.com/UploadFile/4d9083/dependency-injection-using-microsoft-unity-framework/Images/Flow%20of%20Dependency%20Inversion%20Principal.jpg" alt="Dependency Injection"&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
-&lt;p&gt;&lt;strong&gt;In conclusion:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In Conclusion:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Abstractions should not depend on details&lt;/li&gt;
