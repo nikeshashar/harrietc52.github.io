@@ -1,4 +1,27 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 08 Sep 2015 10:38:17 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>SOLID - Dependency Inversion Principle</title><description>&lt;p&gt;&lt;strong&gt;Research Assignment:&lt;/strong&gt;&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 08 Sep 2015 19:45:04 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 6</title><description>&lt;p&gt;Today has been a hard but really encouraging day!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;I understood all the code I wrote with Sarah (always a good start) we progressed and the tests eventually came back green. I just feel for the first time things started to click, so that was a great feeling. Most likely&lt;/p&gt;</description><link>http://localhost:2368/2015/09/08/day-6/</link><guid isPermaLink="false">793b33d1-838b-45a8-870a-69a9d275af7e</guid><dc:creator>Harriet Craven</dc:creator><pubDate>Tue, 08 Sep 2015 19:44:53 GMT</pubDate><content:encoded>&lt;p&gt;Today has been a hard but really encouraging day!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;I understood all the code I wrote with Sarah (always a good start) we progressed and the tests eventually came back green. I just feel for the first time things started to click, so that was a great feeling. Most likely gone by tomorrow, but its okay.&lt;/p&gt;
+
+&lt;p&gt;Our collaborative approach for day two of Battleships was to start with basics, the ship class, moving on to player and maybe eventually board - however we didn't actually make it past the Ship class. Our ships know if they are hit, how many times, and if they are floating or sunk. I also added tonight the different size ships, testing them individually. And then the doubles! But the ship class now is pretty big so I think thats definitely a question to ask tomorrow, which classes actually NEED what methods, but also if I am getting a bit carried away with encapsulation, water class, hit class etc!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Our research project today was on the SOLID principle: Dependency Inversion and injection. Honestly, I don't get it - so thats tonight sorted! Going to bring this up in our stand up tomorrow if I'm still not too sure.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;I don’t think I really have much else to say today. Oh! Actually, it was so embarrassing, I made a real mess of my presentation this morning on the string method split. I feel like I know split pretty well now, but I had a little tech issue so I couldn't do my examples in irb, and well, it all went down hill from there! Hopefully next time it will be better.&lt;/p&gt;
+
+&lt;p&gt;Apart from that, I am really sorry that I bailed out on climbing tonight Nikesh, Simon and co! I’ll be there next week :) &lt;/p&gt;
+
+&lt;p&gt;Goodnight! &lt;br&gt;
+Harry x&lt;/p&gt;</content:encoded></item><item><title>SOLID - Dependency Inversion Principle</title><description>&lt;p&gt;&lt;strong&gt;Research Assignment:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Describe the SOLID principle of dependency inversion, by giving an example of dependency injection with a module and a class. How does DI improve the reusability of code?*&lt;/p&gt;
 
