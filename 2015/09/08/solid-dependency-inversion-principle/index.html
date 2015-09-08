@@ -1,0 +1,205 @@
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>SOLID - Dependency inversion principle</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="../../../../assets/css/normalize.css?v=078f409d8e">
+    <link rel="stylesheet" type="text/css" href="../../../../assets/css/screen.css?v=078f409d8e">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&amp;family=Open+Sans+Condensed:300%7COpen+Sans:400,600,400italic,600italic%7CMerriweather:400,300,300italic,400italic,700,700italic%7CRoboto+Slab:400,300">
+    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+    
+
+    <link rel="canonical" href="index.html">
+    
+    <meta property="og:site_name" content="My Stories Through Makers Academy ">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="SOLID - Dependency inversion principle">
+    <meta property="og:description" content="Research Assignment: Describe the SOLID principle of dependency inversion, by giving an example of dependency injection with a module and a class. How does DI improve the reusability of code?* Dependency Inversion The Dependency Inversion Principle is about reversing dependencies...">
+    <meta property="og:url" content="http://localhost:2368/2015/09/08/solid-dependency-inversion-principle/">
+    <meta property="article:published_time" content="2015-09-08T10:31:58.482Z">
+    <meta property="article:modified_time" content="2015-09-08T10:31:58.481Z">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="SOLID - Dependency inversion principle">
+    <meta name="twitter:description" content="Research Assignment: Describe the SOLID principle of dependency inversion, by giving an example of dependency injection with a module and a class. How does DI improve the reusability of code?* Dependency Inversion The Dependency Inversion Principle is about reversing dependencies...">
+    <meta name="twitter:url" content="http://localhost:2368/2015/09/08/solid-dependency-inversion-principle/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "My Stories Through Makers Academy ",
+    "author": {
+        "@type": "Person",
+        "name": "Harriet Craven",
+        "url": "http://localhost:2368/author/harriet",
+        "sameAs": null,
+        "description": null
+    },
+    "headline": "SOLID - Dependency inversion principle",
+    "url": "http://localhost:2368/2015/09/08/solid-dependency-inversion-principle/",
+    "datePublished": "2015-09-08T10:31:58.482Z",
+    "dateModified": "2015-09-08T10:31:58.481Z",
+    "description": "Research Assignment: Describe the SOLID principle of dependency inversion, by giving an example of dependency injection with a module and a class. How does DI improve the reusability of code?* Dependency Inversion The Dependency Inversion Principle is about reversing dependencies..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.6">
+    <link rel="alternate" type="application/rss+xml" title="My Stories Through Makers Academy " href="../../../../rss/index.html">
+</head>
+<body class="post-template">
+
+    <header id="site-head">
+        <a id="blog-logo" href="../../../../"><div class="bloglogo" style="background: url(../../../../content/images/2015/08/11796349_10154363663703306_2615981703261830633_n.jpg)"></div></a>
+        <h1 class="blog-title"><a href="../../../../">My Stories Through Makers Academy </a></h1>
+        <h2 class="blog-description">Blog of Harriet Craven</h2>    </header>
+
+    
+<main class="content" role="main">
+
+    <article class="post">
+
+
+        <header>
+        
+        <h1 class="post-title">SOLID - Dependency inversion principle</h1>
+        <div class="post-meta"><time datetime="2015-09-08">Tuesday, September 08, 2015</time></div>
+        </header>
+
+        <section class="post-content">
+            <p><strong>Research Assignment:</strong></p>
+
+<p>Describe the SOLID principle of dependency inversion, by giving an example of dependency injection with a module and a class. How does DI improve the reusability of code?*</p>
+
+<hr>
+
+<p><strong>Dependency Inversion</strong></p>
+
+<p>The Dependency Inversion Principle is about reversing dependencies from "higher level" components to "lower level" components. This means that the "lower level" components are dependent on the interfaces owned by the "higher level" components. <br>
+The most common place that talk about dependency inversion comes up is when folks are thinking about automated testing. While Ruby makes it possible to mock out calls to pretty much any object, it's a whole lot cleaner to pass in raw mock objects than it is to set expectations on real objects.</p>
+
+<hr>
+
+<p><strong>Dependency Injection</strong></p>
+
+<p>In software engineering, dependency injection is a software design pattern that implements inversion of control for resolving dependencies. Dependency injection means giving an object its instance variables</p>
+
+<p>Dependency injection is basically providing the objects that an object needs (its dependencies) instead of having it construct them itself. It's a very useful technique for testing, since it allows dependencies to be mocked or stubbed out.</p>
+
+<hr>
+
+<p><strong>Benefits of DIP</strong></p>
+
+<p>The main reason for using dependency injection is to be able to swap the dependencies of an object at run time - this is mostly useful for testing.</p>
+
+<p>A dependency is an object that can be used (a service). An injection is the passing of a dependency to a dependent object (client) that would use it.</p>
+
+<ul>
+<li>Risk avoidance</li>
+<li>Makes testing easier (both writing and reading) by letting us substitute implementations in our tests</li>
+<li>Creates a more robust and flexible program</li>
+<li>Opportunity to customise code without rebuilding it</li>
+</ul>
+
+<hr>
+
+<p><strong>Example</strong></p>
+
+<p>Let say you want to switch on a lamp i a room. You don’t have to cut into the wall and fiddle around with the electrics - that has already been done and we don’t to worry about it anymore. However, this happened initially and in order to switch on the lamp, we are dependant on this. From this point, the electrical outlet provides a standard interface for operating the lamp.</p>
+
+<p><em>#a typical approach</em></p>
+
+<pre><code>module Electrics  
+end  
+</code></pre>
+
+<pre><code>include Electrics
+
+class Lamp  
+ def initialize
+   @plug = Lamp.new(:type =&gt; ‘uk’)
+
+ end
+end  
+</code></pre>
+
+<p><em>#DI approach</em></p>
+
+<pre><code>class Lamp  
+ def initialize(plug)
+   @plug = plug
+ end
+end  
+</code></pre>
+
+<hr>
+
+<p><img src="http://i.stack.imgur.com/BrkBd.png" alt="Dependency Injection"></p>
+
+<hr>
+
+<p><strong>In conclusion:</strong></p>
+
+<ul>
+<li>Abstractions should not depend on details</li>
+<li>Code should depend on things that are at the same or higher level of abstraction</li>
+<li>High level policy should not depend on low level details</li>
+<li>Capture low-level dependencies in domain-relevant abstractions
+<em><a href="http://martinfowler.com/articles/dipInTheWild.html">http://martinfowler.com/articles/dipInTheWild.html</a></em></li>
+</ul>
+
+<p>Research project by Harriet Craven and Sarah K.Pedersen</p>
+        </section>
+
+        <section class="share">
+            <p class="info prompt">Share this post</p>
+            <a href="http://twitter.com/share?text=SOLID%20-%20Dependency%20inversion%20principle&amp;url=http://localhost:2368/2015/09/08/solid-dependency-inversion-principle/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span>
+            </a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/2015/09/08/solid-dependency-inversion-principle/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-2x fa-fw fa-facebook-square"></i> <span class="hidden">Facebook</span>
+            </a>
+            <a href="https://plus.google.com/share?url=http://localhost:2368/2015/09/08/solid-dependency-inversion-principle/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                <i class="fa fa-2x fa-fw fa-google-plus-square"></i> <span class="hidden">Google+</span>
+            </a>
+        </section>
+
+        <footer class="post-footer">
+
+            <section class="author">
+                <div class="authorimage" style="background: url(index.html)"></div>
+                <p class="attr">Author</p>
+                <h4><a href="index.html">Harriet Craven</a></h4>
+                <p class="bio"></p>
+            </section>
+
+        </footer>
+
+
+
+    </article>
+
+</main>
+
+
+    <footer class="site-footer">
+        <div class="inner">
+            <section class="copyright">© 2015 <a href="../../../../">My Stories Through Makers Academy </a>. All rights reserved.</section>
+            <section>Vapor theme by <a href="http://sethlilly.com/">Seth Lilly</a></section>
+            <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a></section>
+        </div>
+    </footer>
+
+    <script src="../../../../public/jquery.js?v=078f409d8e"></script>
+
+    <script type="text/javascript" src="../../../../assets/js/index.js?v=078f409d8e"></script>
+
+</body>
