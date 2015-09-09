@@ -1,4 +1,80 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 08 Sep 2015 19:45:04 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 6</title><description>&lt;p&gt;Today has been a hard but really encouraging day!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 09 Sep 2015 10:35:05 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Composition vs Inheritance</title><description>&lt;p&gt;&lt;strong&gt;Research Assignment:&lt;/strong&gt; Describe the difference between composition and inheritance. What are some of the dangers of inheritance? Why would we prefer composition over inheritance? Give code examples of using inheritance to build ships.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;Composition vs Inheritance&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Inheritance is the relationship between two classes. It lets subclasses access all the features&lt;/p&gt;</description><link>http://localhost:2368/2015/09/09/post-post/</link><guid isPermaLink="false">2af9e87f-0216-4108-a0b3-9b99ca9e1e33</guid><dc:creator>Harriet Craven</dc:creator><pubDate>Wed, 09 Sep 2015 10:33:35 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Research Assignment:&lt;/strong&gt; Describe the difference between composition and inheritance. What are some of the dangers of inheritance? Why would we prefer composition over inheritance? Give code examples of using inheritance to build ships.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;Composition vs Inheritance&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Inheritance is the relationship between two classes. It lets subclasses access all the features of its superclass, and then add more on top of them which would overwrite the superclass’s inherited features. In Ruby, a class can only inherit from a single other class.&lt;/p&gt;
+
+&lt;p&gt;The alternative to inheritance which essentially achieves the same thing is composition. This involves the usage of other classes and modules instead of simply relying on implicit inheritance. Composition is using instance variables or modules that reference other objects. &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;Why bother with inheritance?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;While rarely used by programmers, inheritance does have the advantage of being able to appeal to DRY principles by reducing repeated code, making it look more succinct and readable.&lt;/p&gt;
+
+&lt;p&gt;BUT..&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dangers of inheritance&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Some disadvantages of inheritance is that you can’t change the implementation inherited from the super classes at run time. Inheritance also breaks the whole encapsulation concept. This is because a subclass is exposed to details of its superclass. Inheritance also creates LOADS of coupling, so any change in the superclass forces subclass to change, leading to potential errors. &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;Why prefer composition over inheritance&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;While inheritance perhaps makes code more succinct, it keeps the code rigid and less agile. Composition on the other hand offers the freedom of being able to package up code into different modules, allowing it to be used in a variety of contexts and settings. &lt;/p&gt;
+
+&lt;p&gt;Since most coding projects should incorporate agile principles and be open to changes in situations, its a no brainer that composition principles should be adopted when considering how objects interact with one another.&lt;/p&gt;
+
+&lt;p&gt;There may be times where inheritance is the way forward, but this is completely depending on the required design structure. Whichever you choose to use, composition or inheritance, the goal is to produce shorter, easier to read reusable code and adaptable, so you ultimately you choose which you think is most appropriate. &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;Inheritance example:  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Ship  
+  def initialize(size)
+    @size = 2
+  end
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;class BattleShip &amp;lt; Ship  
+end
+
+battleship = Battleship.new  
+battleship.size =&amp;gt; 2  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Composition example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class PatrolBoat  
+  def initialize (size = 2)
+    @size = size
+  end
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;require 'patrol_boat'
+
+class AircraftCarrier  
+  def initialize(ac_size = PatrolBoat.new)
+    @size = ac_size
+  end
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Research project by Moe and Harry&lt;/p&gt;</content:encoded></item><item><title>Day 6</title><description>&lt;p&gt;Today has been a hard but really encouraging day!&lt;/p&gt;
 
 &lt;hr&gt;
 

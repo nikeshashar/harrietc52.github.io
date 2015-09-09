@@ -1,0 +1,194 @@
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Composition vs Inheritance</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="../../../../assets/css/normalize.css?v=7f1ca48da3">
+    <link rel="stylesheet" type="text/css" href="../../../../assets/css/screen.css?v=7f1ca48da3">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&amp;family=Open+Sans+Condensed:300%7COpen+Sans:400,600,400italic,600italic%7CMerriweather:400,300,300italic,400italic,700,700italic%7CRoboto+Slab:400,300">
+    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+    
+
+    <link rel="canonical" href="index.html">
+    
+    <meta property="og:site_name" content="My Stories Through Makers Academy ">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Composition vs Inheritance">
+    <meta property="og:description" content="Research Assignment: Describe the difference between composition and inheritance. What are some of the dangers of inheritance? Why would we prefer composition over inheritance? Give code examples of using inheritance to build ships. Composition vs Inheritance Inheritance is the relationship...">
+    <meta property="og:url" content="http://localhost:2368/2015/09/09/post-post/">
+    <meta property="article:published_time" content="2015-09-09T10:33:35.093Z">
+    <meta property="article:modified_time" content="2015-09-09T10:34:39.827Z">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Composition vs Inheritance">
+    <meta name="twitter:description" content="Research Assignment: Describe the difference between composition and inheritance. What are some of the dangers of inheritance? Why would we prefer composition over inheritance? Give code examples of using inheritance to build ships. Composition vs Inheritance Inheritance is the relationship...">
+    <meta name="twitter:url" content="http://localhost:2368/2015/09/09/post-post/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "My Stories Through Makers Academy ",
+    "author": {
+        "@type": "Person",
+        "name": "Harriet Craven",
+        "url": "http://localhost:2368/author/harriet",
+        "sameAs": null,
+        "description": null
+    },
+    "headline": "Composition vs Inheritance",
+    "url": "http://localhost:2368/2015/09/09/post-post/",
+    "datePublished": "2015-09-09T10:33:35.093Z",
+    "dateModified": "2015-09-09T10:34:39.827Z",
+    "description": "Research Assignment: Describe the difference between composition and inheritance. What are some of the dangers of inheritance? Why would we prefer composition over inheritance? Give code examples of using inheritance to build ships. Composition vs Inheritance Inheritance is the relationship..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.6">
+    <link rel="alternate" type="application/rss+xml" title="My Stories Through Makers Academy " href="../../../../rss/index.html">
+</head>
+<body class="post-template">
+
+    <header id="site-head">
+        <a id="blog-logo" href="../../../../"><div class="bloglogo" style="background: url(../../../../content/images/2015/08/11796349_10154363663703306_2615981703261830633_n.jpg)"></div></a>
+        <h1 class="blog-title"><a href="../../../../">My Stories Through Makers Academy </a></h1>
+        <h2 class="blog-description">Blog of Harriet Craven</h2>    </header>
+
+    
+<main class="content" role="main">
+
+    <article class="post">
+
+
+        <header>
+        
+        <h1 class="post-title">Composition vs Inheritance</h1>
+        <div class="post-meta"><time datetime="2015-09-09">Wednesday, September 09, 2015</time></div>
+        </header>
+
+        <section class="post-content">
+            <p><strong>Research Assignment:</strong> Describe the difference between composition and inheritance. What are some of the dangers of inheritance? Why would we prefer composition over inheritance? Give code examples of using inheritance to build ships.</p>
+
+<hr>
+
+<p><strong>Composition vs Inheritance</strong></p>
+
+<p>Inheritance is the relationship between two classes. It lets subclasses access all the features of its superclass, and then add more on top of them which would overwrite the superclass’s inherited features. In Ruby, a class can only inherit from a single other class.</p>
+
+<p>The alternative to inheritance which essentially achieves the same thing is composition. This involves the usage of other classes and modules instead of simply relying on implicit inheritance. Composition is using instance variables or modules that reference other objects. </p>
+
+<hr>
+
+<p><strong>Why bother with inheritance?</strong></p>
+
+<p>While rarely used by programmers, inheritance does have the advantage of being able to appeal to DRY principles by reducing repeated code, making it look more succinct and readable.</p>
+
+<p>BUT..</p>
+
+<p><strong>Dangers of inheritance</strong></p>
+
+<p>Some disadvantages of inheritance is that you can’t change the implementation inherited from the super classes at run time. Inheritance also breaks the whole encapsulation concept. This is because a subclass is exposed to details of its superclass. Inheritance also creates LOADS of coupling, so any change in the superclass forces subclass to change, leading to potential errors. </p>
+
+<hr>
+
+<p><strong>Why prefer composition over inheritance</strong></p>
+
+<p>While inheritance perhaps makes code more succinct, it keeps the code rigid and less agile. Composition on the other hand offers the freedom of being able to package up code into different modules, allowing it to be used in a variety of contexts and settings. </p>
+
+<p>Since most coding projects should incorporate agile principles and be open to changes in situations, its a no brainer that composition principles should be adopted when considering how objects interact with one another.</p>
+
+<p>There may be times where inheritance is the way forward, but this is completely depending on the required design structure. Whichever you choose to use, composition or inheritance, the goal is to produce shorter, easier to read reusable code and adaptable, so you ultimately you choose which you think is most appropriate. </p>
+
+<hr>
+
+<p><strong>Examples:</strong> </p>
+
+<p>Inheritance example:  </p>
+
+<pre><code>class Ship  
+  def initialize(size)
+    @size = 2
+  end
+end  
+</code></pre>
+
+<pre><code>class BattleShip &lt; Ship  
+end
+
+battleship = Battleship.new  
+battleship.size =&gt; 2  
+</code></pre>
+
+<p>Composition example:</p>
+
+<pre><code>class PatrolBoat  
+  def initialize (size = 2)
+    @size = size
+  end
+end  
+</code></pre>
+
+<pre><code>require 'patrol_boat'
+
+class AircraftCarrier  
+  def initialize(ac_size = PatrolBoat.new)
+    @size = ac_size
+  end
+end  
+</code></pre>
+
+<p>Research project by Moe and Harry</p>
+        </section>
+
+        <section class="share">
+            <p class="info prompt">Share this post</p>
+            <a href="http://twitter.com/share?text=Composition%20vs%20Inheritance&amp;url=http://localhost:2368/2015/09/09/post-post/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span>
+            </a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/2015/09/09/post-post/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-2x fa-fw fa-facebook-square"></i> <span class="hidden">Facebook</span>
+            </a>
+            <a href="https://plus.google.com/share?url=http://localhost:2368/2015/09/09/post-post/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                <i class="fa fa-2x fa-fw fa-google-plus-square"></i> <span class="hidden">Google+</span>
+            </a>
+        </section>
+
+        <footer class="post-footer">
+
+            <section class="author">
+                <div class="authorimage" style="background: url(index.html)"></div>
+                <p class="attr">Author</p>
+                <h4><a href="index.html">Harriet Craven</a></h4>
+                <p class="bio"></p>
+            </section>
+
+        </footer>
+
+
+
+    </article>
+
+</main>
+
+
+    <footer class="site-footer">
+        <div class="inner">
+            <section class="copyright">© 2015 <a href="../../../../">My Stories Through Makers Academy </a>. All rights reserved.</section>
+            <section>Vapor theme by <a href="http://sethlilly.com/">Seth Lilly</a></section>
+            <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a></section>
+        </div>
+    </footer>
+
+    <script src="../../../../public/jquery.js?v=7f1ca48da3"></script>
+
+    <script type="text/javascript" src="../../../../assets/js/index.js?v=7f1ca48da3"></script>
+
+</body>
