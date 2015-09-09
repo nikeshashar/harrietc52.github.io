@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 09 Sep 2015 21:53:43 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 7</title><description>&lt;p&gt;All I think I want to mention tonight is how really great my cohort is! We had a September group meeting with Dana, our chief joy officer, and we just went around everybody for a minute or so talking about our thoughts and feelings, what we are enjoying, what we&lt;/p&gt;</description><link>http://localhost:2368/2015/09/09/day-7/</link><guid isPermaLink="false">08fdcbec-a4c2-4f13-80a4-e505ccb123c4</guid><dc:creator>Harriet Craven</dc:creator><pubDate>Wed, 09 Sep 2015 21:53:17 GMT</pubDate><content:encoded>&lt;p&gt;All I think I want to mention tonight is how really great my cohort is! We had a September group meeting with Dana, our chief joy officer, and we just went around everybody for a minute or so talking about our thoughts and feelings, what we are enjoying, what we expected, finding hard, small victories etc. There were loads of really funny comments and its crazy to think we have only known each other 7 days. This sounds really cliche but it actually feels like a massive family already! &lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 09 Sep 2015 22:39:17 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 7</title><description>&lt;p&gt;All I think I want to mention tonight is how really great my cohort is! We had a September group meeting with Dana, our chief joy officer, and we just went around everybody for a minute or so talking about our thoughts and feelings, what we are enjoying, what we&lt;/p&gt;</description><link>http://localhost:2368/2015/09/09/day-7/</link><guid isPermaLink="false">08fdcbec-a4c2-4f13-80a4-e505ccb123c4</guid><dc:creator>Harriet Craven</dc:creator><pubDate>Wed, 09 Sep 2015 21:53:17 GMT</pubDate><content:encoded>&lt;p&gt;All I think I want to mention tonight is how really great my cohort is! We had a September group meeting with Dana, our chief joy officer, and we just went around everybody for a minute or so talking about our thoughts and feelings, what we are enjoying, what we expected, finding hard, small victories etc. There were loads of really funny comments and its crazy to think we have only known each other 7 days. This sounds really cliche but it actually feels like a massive family already! &lt;/p&gt;
 
 &lt;p&gt;Don’t get me wrong.. it is HARD, totally exhausting and today was yet another emotional rollercoaster, but there is so much support around us all and its just such an amazing place to be 12 hours every day.  &lt;/p&gt;
 
@@ -110,94 +110,78 @@ end
 &lt;p&gt;Goodnight! &lt;br&gt;
 Harry x&lt;/p&gt;</content:encoded></item><item><title>SOLID - Dependency Inversion Principle</title><description>&lt;p&gt;&lt;strong&gt;Research Assignment:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Describe the SOLID principle of dependency inversion, by giving an example of dependency injection with a module and a class. How does DI improve the reusability of code?*&lt;/p&gt;
+&lt;p&gt;Describe the SOLID principle of dependency inversion, by giving an example of dependency injection. How does DI improve the reusability of code?&lt;/p&gt;
 
 &lt;hr&gt;
 
 &lt;p&gt;&lt;strong&gt;Dependency Inversion&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The Dependency Inversion Principle is about reversing dependencies from "higher level" components to "lower level" components. This means&lt;/p&gt;</description><link>http://localhost:2368/2015/09/08/solid-dependency-inversion-principle/</link><guid isPermaLink="false">d2e2742d-bb49-4cac-a6ed-587dad025916</guid><dc:creator>Harriet Craven</dc:creator><pubDate>Tue, 08 Sep 2015 10:31:58 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Research Assignment:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In computer programming, SOLID in an acronym for the "first five basic principles of object-orientated design", where the D stands for Dependency Inversion.&lt;/p&gt;
 
-&lt;p&gt;Describe the SOLID principle of dependency inversion, by giving an example of dependency injection with a module and a class. How does DI improve the reusability of code?*&lt;/p&gt;
+&lt;p&gt;Dependency&lt;/p&gt;</description><link>http://localhost:2368/2015/09/08/solid-dependency-inversion-principle/</link><guid isPermaLink="false">d2e2742d-bb49-4cac-a6ed-587dad025916</guid><dc:creator>Harriet Craven</dc:creator><pubDate>Tue, 08 Sep 2015 10:31:58 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Research Assignment:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Describe the SOLID principle of dependency inversion, by giving an example of dependency injection. How does DI improve the reusability of code?&lt;/p&gt;
 
 &lt;hr&gt;
 
 &lt;p&gt;&lt;strong&gt;Dependency Inversion&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The Dependency Inversion Principle is about reversing dependencies from "higher level" components to "lower level" components. This means that the "lower level" components are dependent on the interfaces owned by the "higher level" components. &lt;br&gt;
-The most common place that talk about dependency inversion comes up is when folks are thinking about automated testing. While Ruby makes it possible to mock out calls to pretty much any object, it's a whole lot cleaner to pass in raw mock objects than it is to set expectations on real objects.&lt;/p&gt;
+&lt;p&gt;In computer programming, SOLID in an acronym for the "first five basic principles of object-orientated design", where the D stands for Dependency Inversion.&lt;/p&gt;
+
+&lt;p&gt;Dependency inversion is about reversing dependencies from "higher level" modules to "lower level" modules. For example a computer, the high level module, depends on the individual keys, which are the low level modules.  Here, the keyboard is depending on the details of the low level module the keys, and if any of these details change, it has a knock on effect and the high level module needs to be changed too. &lt;/p&gt;
+
+&lt;p&gt;This is bad! High and low level modules should not depend on each other at all. So this is where abstraction comes into play. Abstraction is one of the basic programming concepts in OOP. It simplifies complex programs by creating only appropriate classes, factoring out any unnecessary details.&lt;/p&gt;
+
+&lt;p&gt;To make sure there is no concept of high and low modules anymore, we create this abstraction interface that sits between the high and low level objects. Any interactions between these objects only take place though this interface. Therefore, we never have a situation where one object is dependant on another - they are both dependent on a common abstraction instead, which means we can change alter each object respectively and is shouldn't affect the other. &lt;/p&gt;
+
+&lt;p&gt;As a whole this lets our project have a naturally modular design, which is good so that we can test individual modules in isolation, rather then worrying about how they work togther. &lt;/p&gt;
 
 &lt;hr&gt;
 
 &lt;p&gt;&lt;strong&gt;Dependency Injection&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;In software engineering, dependency injection is a software design pattern that implements inversion of control for resolving dependencies. Dependency injection means giving an object its instance variables&lt;/p&gt;
+&lt;p&gt;Dependency injection means giving an object its instance variables, which is implementing our dependency inversion principle. &lt;/p&gt;
 
-&lt;p&gt;Dependency injection is basically providing the objects that an object needs (its dependencies) instead of having it construct them itself. It's a very useful technique for testing, since it allows dependencies to be mocked or stubbed out.&lt;/p&gt;
+&lt;p&gt;Dependency injection provides the dependencies that an object needs instead of having it construct them itself. It ultimately results in less coupling between objects. Dependency is great for testing, as dependencies can be mocked or stubbed out quite easily, so it is more straight forward to run tests in isolation. &lt;/p&gt;
 
 &lt;hr&gt;
 
-&lt;p&gt;&lt;strong&gt;Benefits of DI&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The main reason for using dependency injection is to be able to swap the dependencies of an object at run time - this is mostly useful for testing.&lt;/p&gt;
-
-&lt;p&gt;A dependency is an object that can be used (a service). An injection is the passing of a dependency to a dependent object (client) that would use it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Benefits of Dependency Inversion&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Risk avoidance&lt;/li&gt;
-&lt;li&gt;Makes testing easier (both writing and reading) by letting us substitute implementations in our tests&lt;/li&gt;
-&lt;li&gt;Creates a more robust and flexible program&lt;/li&gt;
-&lt;li&gt;Opportunity to customise code without rebuilding it&lt;/li&gt;
+&lt;li&gt;Makes is easy to follow the Single Responsibly Principle (which is the S of SOLID)&lt;/li&gt;
+&lt;li&gt;Simplier to manage dependencies between objects&lt;/li&gt;
+&lt;li&gt;Code becomes a lot more modularised, robust and flexible&lt;/li&gt;
+&lt;li&gt;A lot easier to run unit tests&lt;/li&gt;
+&lt;li&gt;Makes it easier to change your code in the future&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr&gt;
 
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Let say you want to switch on a lamp i a room. You don’t have to cut into the wall and fiddle around with the electrics - that has already been done and we don’t to worry about it anymore. However, this happened initially and in order to switch on the lamp, we are dependant on this. From this point, the electrical outlet provides a standard interface for operating the lamp.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;#a typical approach&lt;/em&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;module Electrics  
-end  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;include Electrics
-
-class Lamp  
- def initialize
-   @plug = Lamp.new(:type =&amp;gt; ‘uk’)
-
- end
+&lt;pre&gt;&lt;code&gt;class Board  
+  def initialize
+    @ship = Ship.new
+  end
 end  
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;em&gt;#DI approach&lt;/em&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;class Lamp  
- def initialize(plug)
-   @plug = plug
- end
+&lt;pre&gt;&lt;code&gt;class Board  
+  def initialize(ship)
+    @ship = ship
+  end
 end  
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr&gt;
 
-&lt;p&gt;&lt;img src="http://www.c-sharpcorner.com/UploadFile/4d9083/dependency-injection-using-microsoft-unity-framework/Images/Flow%20of%20Dependency%20Inversion%20Principal.jpg" alt="Dependency Injection"&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;strong&gt;In Conclusion:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Abstractions should not depend on details&lt;/li&gt;
-&lt;li&gt;Code should depend on things that are at the same or higher level of abstraction&lt;/li&gt;
-&lt;li&gt;High level policy should not depend on low level details&lt;/li&gt;
-&lt;li&gt;Capture low-level dependencies in domain-relevant abstractions
-&lt;em&gt;&lt;a href="http://martinfowler.com/articles/dipInTheWild.html"&gt;http://martinfowler.com/articles/dipInTheWild.html&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Research project by Harriet Craven and Sarah K.Pedersen&lt;/p&gt;</content:encoded></item><item><title>Day 5</title><description>&lt;p&gt;Week 2!! &lt;br&gt;
+&lt;p&gt;s &lt;br&gt;
+Research project by Harriet Craven and Sarah K.Pedersen&lt;/p&gt;</content:encoded></item><item><title>Day 5</title><description>&lt;p&gt;Week 2!! &lt;br&gt;
 Here we go! &lt;br&gt;
 Battleships!&lt;/p&gt;
 
