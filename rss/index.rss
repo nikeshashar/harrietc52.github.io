@@ -1,4 +1,21 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 10 Sep 2015 19:32:48 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Duck Typing</title><description>&lt;p&gt;Research Project: What is duck typing? Give a code example to demonstrate why this is useful. &lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 10 Sep 2015 21:38:10 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 8</title><description>&lt;p&gt;Today the tiredness really kicked in for the first time. But I had a really nice pair buddy today, and we worked through a few a lot of mini blockers together, leaving pretty chuffed with the little victories that we have took away from today. Again there isn’t loads&lt;/p&gt;</description><link>http://localhost:2368/2015/09/10/day-8/</link><guid isPermaLink="false">1d4c4ddc-2cca-4dfa-bbd6-89f9feceaed1</guid><dc:creator>Harriet Craven</dc:creator><pubDate>Thu, 10 Sep 2015 21:37:56 GMT</pubDate><content:encoded>&lt;p&gt;Today the tiredness really kicked in for the first time. But I had a really nice pair buddy today, and we worked through a few a lot of mini blockers together, leaving pretty chuffed with the little victories that we have took away from today. Again there isn’t loads to show for this but small boosts throughout the day felt encouraging. &lt;/p&gt;
+
+&lt;p&gt;I hope that tomorrow I can work on somebody else’s code apart from my own because it would be interesting to see how I adapt myself within the morning to taking on somebody else different approach to the code and committing myself to that, because all this week I have just been working on mine every day, and it is kind of starting to feel like I am going around in circles.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;There is a lot of talk around our cohort about this weekend challenge, so I think I am going to put the blog aside until an update on Sunday night. I’m pretty nervous for this. I just really hope it proves me wrong in the sense that I have learnt and taken in more than I think, because at the moment I don’t feel like I have advanced much in the last few days. Maybe thats just because I’m so tired as I’m writing this that I can hardly remember which bus stop I have to get off at. Oh! I’ve just remember I forgot to mention this, yesterday I got off the tube at north greenwich to get my bus home, but I got the bus going to totally wrong direction (blaming it on the fact I was on the phone to my parents) and next thing I know the signal cut off because I was going under the Thames, 15 minutes in the wrong direction. Nightmare &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;I just would really like some more hours in the day right now, to catch up on each resource that I have bookmarked throughout the week. But the weekend is in the not so far distance so I hope I can get loads done, and re-energise for a great week 3! &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Saying goodnight at half 10 - This is a record early night! &lt;br&gt;
+Harry x&lt;/p&gt;
+
+&lt;p&gt;Ps. Thanks for the milk&lt;/p&gt;</content:encoded></item><item><title>Duck Typing</title><description>&lt;p&gt;Research Project: What is duck typing? Give a code example to demonstrate why this is useful. &lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.&lt;/p&gt;
