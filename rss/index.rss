@@ -1,16 +1,16 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 10 Sep 2015 19:30:24 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Duck Typing</title><description>&lt;p&gt;Research Project: What is duck typing? Give a code example to demonstrate why this is useful. &lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>My Stories Through Makers Academy </title><description>Blog of Harriet Craven</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 10 Sep 2015 19:32:48 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Duck Typing</title><description>&lt;p&gt;Research Project: What is duck typing? Give a code example to demonstrate why this is useful. &lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Duck typing is the process of making code more flexible and less tightly&lt;/p&gt;</description><link>http://localhost:2368/2015/09/10/duck-typing/</link><guid isPermaLink="false">076ca896-5dba-41e2-95fd-6213bd0626c5</guid><dc:creator>Harriet Craven</dc:creator><pubDate>Thu, 10 Sep 2015 19:30:02 GMT</pubDate><content:encoded>&lt;p&gt;Research Project: What is duck typing? Give a code example to demonstrate why this is useful. &lt;/p&gt;
+&lt;p&gt;Duck typing is the process of making code more flexible with less coupling.&lt;/p&gt;</description><link>http://localhost:2368/2015/09/10/duck-typing/</link><guid isPermaLink="false">076ca896-5dba-41e2-95fd-6213bd0626c5</guid><dc:creator>Harriet Craven</dc:creator><pubDate>Thu, 10 Sep 2015 19:30:02 GMT</pubDate><content:encoded>&lt;p&gt;Research Project: What is duck typing? Give a code example to demonstrate why this is useful. &lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Duck typing is the process of making code more flexible and less tightly couples. It is commonly used in OO languages when you only want to know the default behaviour of an object, and are not concerned with the class to which it belongs. &lt;/p&gt;
+&lt;p&gt;Duck typing is the process of making code more flexible with less coupling. It is commonly used in Object Orientated languages when you only want to know the default behaviour of an object, and are not concerned with the class to which it belongs. &lt;/p&gt;
 
 &lt;p&gt;The main principle idea behind duck typing is to trust your objects and their interface. You only determine an object's suitability by the presence of certain methods.&lt;/p&gt;
 
