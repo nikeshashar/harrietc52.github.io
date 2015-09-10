@@ -3,7 +3,7 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>#September2015</title>
+    <title>Duck Typing</title>
     <meta name="description" content="">
 
     <meta name="HandheldFriendly" content="True">
@@ -21,16 +21,16 @@
     
     <meta property="og:site_name" content="My Stories Through Makers Academy ">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="#September2015">
-    <meta property="og:description" content="The First Photo!...">
-    <meta property="og:url" content="http://localhost:2368/2015/09/02/september-cohort/">
-    <meta property="article:published_time" content="2015-09-02T20:53:12.410Z">
-    <meta property="article:modified_time" content="2015-09-02T21:34:35.775Z">
+    <meta property="og:title" content="Duck Typing">
+    <meta property="og:description" content="Research Project: What is duck typing? Give a code example to demonstrate why this is useful.    If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck. Duck typing is...">
+    <meta property="og:url" content="http://localhost:2368/2015/09/10/duck-typing/">
+    <meta property="article:published_time" content="2015-09-10T19:30:02.415Z">
+    <meta property="article:modified_time" content="2015-09-10T19:30:02.413Z">
     
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="#September2015">
-    <meta name="twitter:description" content="The First Photo!...">
-    <meta name="twitter:url" content="http://localhost:2368/2015/09/02/september-cohort/">
+    <meta name="twitter:title" content="Duck Typing">
+    <meta name="twitter:description" content="Research Project: What is duck typing? Give a code example to demonstrate why this is useful.    If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck. Duck typing is...">
+    <meta name="twitter:url" content="http://localhost:2368/2015/09/10/duck-typing/">
     
     <script type="application/ld+json">
 {
@@ -44,11 +44,11 @@
         "sameAs": null,
         "description": null
     },
-    "headline": "#September2015",
-    "url": "http://localhost:2368/2015/09/02/september-cohort/",
-    "datePublished": "2015-09-02T20:53:12.410Z",
-    "dateModified": "2015-09-02T21:34:35.775Z",
-    "description": "The First Photo!..."
+    "headline": "Duck Typing",
+    "url": "http://localhost:2368/2015/09/10/duck-typing/",
+    "datePublished": "2015-09-10T19:30:02.415Z",
+    "dateModified": "2015-09-10T19:30:02.413Z",
+    "description": "Research Project: What is duck typing? Give a code example to demonstrate why this is useful.    If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck. Duck typing is..."
 }
     </script>
 
@@ -70,24 +70,73 @@
 
         <header>
         
-        <h1 class="post-title">#September2015</h1>
-        <div class="post-meta"><time datetime="2015-09-02">Wednesday, September 02, 2015</time></div>
+        <h1 class="post-title">Duck Typing</h1>
+        <div class="post-meta"><time datetime="2015-09-10">Thursday, September 10, 2015</time></div>
         </header>
 
         <section class="post-content">
-            <p>The First Photo! <br>
-<img src="https://files.slack.com/files-pri/T03ALA7H4-F09VB8ZMW/dsc_0251.jpg" alt=""></p>
+            <p>Research Project: What is duck typing? Give a code example to demonstrate why this is useful. </p>
+
+<blockquote>
+  <p>If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.</p>
+</blockquote>
+
+<p>Duck typing is the process of making code more flexible and less tightly couples. It is commonly used in OO languages when you only want to know the default behaviour of an object, and are not concerned with the class to which it belongs. </p>
+
+<p>The main principle idea behind duck typing is to trust your objects and their interface. You only determine an object's suitability by the presence of certain methods.</p>
+
+<p>A real life example might make this more clear..</p>
+
+<p>If I ask for directions and get the correct answer, I do not care if that answer has come from a policeman or a teacher. All I care is that I have arrived at my destination. </p>
+
+<pre><code>class Duck  
+  def walk
+    'Waddle'
+  end
+
+  def quack
+    'Hello'
+  end
+
+  def name 
+    @name
+  end
+
+  def name=(name)
+    @name
+  end
+end
+
+duck = Duck.new  
+</code></pre>
+
+<pre><code>class Imposter  
+  def walk
+    'Waddle'
+  end
+
+  def quack
+    'Hello'
+  end
+end
+
+imposter = Imposter.new
+</code></pre>
+
+<p>In the example about, ruby doesn't care that the class name is imposter, all it cares about is that this object accepts the messages from the methods 'walk' and 'quack'. For all we know this imposter could indeed be a duck. </p>
+
+<p>Research project by Harry and Matt-Paul</p>
         </section>
 
         <section class="share">
             <p class="info prompt">Share this post</p>
-            <a href="http://twitter.com/share?text=#September2015&amp;url=http://localhost:2368/2015/09/02/september-cohort/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <a href="http://twitter.com/share?text=Duck%20Typing&amp;url=http://localhost:2368/2015/09/10/duck-typing/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                 <i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span>
             </a>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/2015/09/02/september-cohort/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/2015/09/10/duck-typing/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                 <i class="fa fa-2x fa-fw fa-facebook-square"></i> <span class="hidden">Facebook</span>
             </a>
-            <a href="https://plus.google.com/share?url=http://localhost:2368/2015/09/02/september-cohort/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+            <a href="https://plus.google.com/share?url=http://localhost:2368/2015/09/10/duck-typing/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                 <i class="fa fa-2x fa-fw fa-google-plus-square"></i> <span class="hidden">Google+</span>
             </a>
         </section>
